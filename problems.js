@@ -7,3 +7,10 @@ function reverse(str) {
 
 const sol = reverse("jameson");
 console.log(sol);
+// removing first and last letter of a string
+//Thre are various meathods
+//Im using slice() meathod
+
+function removeChar(str) {
+  return str.slice(1, -1);
+}
